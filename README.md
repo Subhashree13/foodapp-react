@@ -1,5 +1,5 @@
 namaste react !
-Used Parcel as a bundler
+Used Parcel as a bundler that helps in
 -dev build
 -local server
 -auto refreshes the page when new changes are made in any file - HMR(HOT MODULE REPLACEMENT)

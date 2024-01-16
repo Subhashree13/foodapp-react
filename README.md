@@ -34,11 +34,21 @@ script object in package.json
 2.  React what? Why?
     Components - functional and Class
     Componentt Composition
-
-===============================
+    types of import and export - named and default
+    ===============================
 
 3.  Hooks
     useState
 
 4.  useEffect
     fetch()
+    Monolithic and MicroService Architecture
+
+5.  Make search component
+    useEffect with dependency array and without dependency array
+
+6.  Routing in React using react-router-dom
+    config route - use createBrowserRouter
+    apply it to app - use <RouterProvier route={routeConfig}>
+    Nested Routing to render children component with Header and Footer intact using children property in createBrowserRouter function and then use Outlet compoent
+    Create Route path using Link component from react-router-dom

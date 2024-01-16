@@ -10,7 +10,9 @@
 .logo{
     width:100px;
 }
-
+.navbar{
+    display: flex;
+}
 .navbar > ul{
     display: flex;
     gap:20px;
@@ -29,7 +31,7 @@
     flex-direction: column;
     gap: 40px;
 }
-.res-wrapper{
+.res-wrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -64,4 +66,70 @@
 }
 .filter-btn{
     cursor: pointer;
+}
+.shimmerBG {
+    animation-duration: 2.2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: shimmer;
+    animation-timing-function: linear;
+    background: #ddd;
+    background: linear-gradient(to right, #F6F6F6 8%, #F0F0F0 18%, #F6F6F6 33%);
+    background-size: 1200px 100%;
+}
+
+
+@-webkit-keyframes shimmer {
+    0% {
+        background-position: -100% 0;
+    }
+    100% {
+        background-position: 100% 0;
+    }
+}
+
+@keyframes shimmer {
+    0% {
+        background-position: -1200px 0;
+    }
+    100% {
+        background-position: 1200px 0;
+    }
+}
+  
+.res-card-skeleton{
+    margin-top: 20px;
+}
+.res-img-wrapper-skeleton{
+    width:300px;
+    height: 300px;
+    border-radius: 8px;
+    
+}
+.res-name-skeleton, .res-cusines-skeleton, .res-location-skeleton{
+    width: 300px;
+    height: 20px;
+    border-radius: 8px;
+}
+.res-info-skeleton {
+    display: flex;
+    gap: 10px;
+}
+.res-rating-skeleton, .res-ETA-skeleton{
+    width:50px;
+    height: 20px;
+    border-radius: 8px;
+}
+.auth-button{
+    padding: 10px;
+    margin: 20px;
+    cursor: pointer;
+}
+.filter{
+    display: flex;
+    gap: 20px;
+}
+.search-wrapper{
+    display: flex;
+    gap: 10px;
 }
